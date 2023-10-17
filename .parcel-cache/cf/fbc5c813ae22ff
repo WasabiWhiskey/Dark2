@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My First Parcel App</title>
+    <link rel="stylesheet" href="15964d0af99fc114">
+    <script type="module" src="f416b14714b7185d"></script>
+</head>
+  <body>
+    <include src="header.html"></include>
+    <h1>Hello, UOC</h1>
+  </body>
+</html>

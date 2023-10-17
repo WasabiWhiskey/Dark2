@@ -1,0 +1,2 @@
+const $b63be9b0371e788c$var$name = "world";
+console.log(`Hello ${$b63be9b0371e788c$var$name}`);

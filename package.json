@@ -1,0 +1,14 @@
+{
+  "name": "darker",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "test package :D",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "posthtml-doctype": "^1.1.1"
+  }
+}
