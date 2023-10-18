@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/style.css"],"sourcesContent":["\r\n\r\n#menu {\r\n    background: #fff2c6;\r\n    display: block;\r\n    position: fixed;\r\n    align-items: normal;\r\n}"],"names":[],"version":3,"file":"index.2cdaf7bc.css.map","sourceRoot":"/__parcel_source_root/"}

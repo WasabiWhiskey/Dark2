@@ -1,0 +1,8 @@
+#menu {
+  background: #fff2c6;
+  align-items: normal;
+  display: block;
+  position: fixed;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
