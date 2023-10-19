@@ -1,8 +1,24 @@
-#menu {
+body {
+  background-color: #3b4229;
+}
+
+nav {
   background: #fff2c6;
-  align-items: normal;
-  display: block;
-  position: fixed;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+  position: static;
+}
+
+nav li {
+  align-items: start;
+  padding-inline: 10px;
+  display: inline;
+}
+
+.icoli {
+  max-width: 10px;
+  max-height: 10px;
 }
 
 /*# sourceMappingURL=index.464a04c9.css.map */

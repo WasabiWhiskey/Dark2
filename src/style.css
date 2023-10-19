@@ -1,8 +1,27 @@
+body {
+    background-color: #3b4229;
+}
 
-
-#menu {
+nav {
     background: #fff2c6;
-    display: block;
+    display: flex;
     position: fixed;
-    align-items: normal;
+    align-items: stretch;
+    position: static;
+    justify-content: space-between;
+}
+
+nav :hover {
+
+}
+
+nav li {
+    display: inline;
+    padding-inline: 10px;
+    align-items: start;
+}
+
+.icoli {
+  max-width: 10px;
+  max-height: 10px;
 }
