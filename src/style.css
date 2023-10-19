@@ -21,7 +21,7 @@ nav li {
     align-items: start;
 }
 
-.icoli {
+nav li.icoli {
   max-width: 10px;
   max-height: 10px;
 }
