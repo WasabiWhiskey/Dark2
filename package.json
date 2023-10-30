@@ -1,0 +1,17 @@
+{
+  "name": "darker",
+  "source": "Dark/src/index.html",
+  "version": "1.0.0",
+  "description": "test package :D",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "posthtml-doctype": "^1.1.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-inline-string": "^2.10.0"
+  }
+}
