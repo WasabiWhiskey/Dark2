@@ -1,21 +1,44 @@
 {
-  "browserslist": [
-    "defaults and fully supports es6-module",
-    "maintained node versions"
-  ],
+
   "name": "darker",
-  "source": "./src/index.html",
+
+  "source": "/src/index.html",
+
   "version": "1.0.0",
+
   "description": "test package :D",
+
+  "browserslist": [
+
+    "defaults and fully supports es6-module",
+
+    "maintained node versions"
+
+  ],
+
   "scripts": {
+
     "start": "parcel",
+
     "build": "parcel build"
+
   },
+
   "devDependencies": {
+
     "parcel": "^2.10.1",
+
     "posthtml-doctype": "^1.1.1"
+
   },
+
   "dependencies": {
-    "@parcel/transformer-inline-string": "^2.10.0"
+
+    "@parcel/transformer-inline-string": "^2.10.0",
+
+    "postcss-cli": "^10.1.0"
+
   }
+
 }
+
