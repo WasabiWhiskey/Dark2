@@ -1,6 +1,6 @@
 {
   "name": "darker",
-  "source": "./src/index.html",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "test package :D",
   "scripts": {
