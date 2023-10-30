@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+    <div>
+        <nav id="MENU">
+        <li href:"*/htmls/HOME.html">HOME</li>
+        <li href:"*/htmls/Categoria.html">Categoria</li>
+        <li href:"*/htmls/Detall.html">Detall</li>
+        <li href:"*/htmls/Presentacio.html">Presentacio</li>
+        <li href:"*/htmls/Links.html">Links</li>
+        </nav>
+    </div>
+
+</body>

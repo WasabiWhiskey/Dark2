@@ -1,0 +1,16 @@
+body {
+  background-color: #3b4229;
+}
+
+nav {
+  background: #fff2c6;
+  align-items: stretch;
+  display: block;
+  position: fixed;
+}
+
+nav li {
+  align-items: start;
+  padding-inline: 10px;
+  display: inline;
+}

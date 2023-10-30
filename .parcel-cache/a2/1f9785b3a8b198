@@ -1,0 +1,23 @@
+body {
+  background-color: #3b4229;
+}
+
+nav {
+  padding: none;
+  background: #fff2c6;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+  position: static;
+}
+
+nav li {
+  align-items: center;
+  padding-inline: 10px;
+  display: inline;
+}
+
+#icoli {
+  width: 50px;
+  height: 50px;
+}

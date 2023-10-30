@@ -1,0 +1,6 @@
+.menu {
+  background: #fff2c6;
+  align-items: normal;
+  display: block;
+  position: fixed;
+}

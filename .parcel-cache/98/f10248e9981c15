@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" href="fbf4ca4b6886cbda" type="image/x-icon">
+    <title>DARK-er</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="de2cc9e78240e365">
+    <script type="module" src="90c342595f216a52"></script>
+</head>
+<body>
+    <div>
+        <nav id="MENU">
+        <ul>
+            <li href="*/htmls/HOME.html"><img id="icoli" src="fbf4ca4b6886cbda" alt="Triskel, logo de Dark"></li>
+            <li href="*/htmls/Categoria.html">Categoria</li>
+            <li href="*/htmls/Detall.html">Detall</li>
+            <li href="*/htmls/Presentacio.html">Presentacio</li>
+            <li href="*/htmls/Links.html">Links</li>
+        </ul>
+        </nav>
+    </div>
+
+</body>

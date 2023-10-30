@@ -1,0 +1,17 @@
+body {
+  background-color: #3b4229;
+}
+
+nav {
+  position: static -2px;
+  background: #fff2c6;
+  align-items: stretch;
+  display: flex;
+  position: fixed;
+}
+
+nav li {
+  align-items: start;
+  padding-inline: 10px;
+  display: inline;
+}

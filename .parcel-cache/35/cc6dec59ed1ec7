@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["Dark/src/style.css"],"sourcesContent":["body {\r\n    background-color: #3b4229;\r\n}\r\n\r\n.menu {\r\n    background: #fff2c6;\r\n    display: block;\r\n    position: fixed;\r\n    align-items: normal;\r\n}"],"names":[],"version":3,"file":"index.464a04c9.css.map","sourceRoot":"/__parcel_source_root/"}
