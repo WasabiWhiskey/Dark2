@@ -1,12 +1,13 @@
 {
   "name": "darker",
   "source": "src/index.html",
-  "version": "1.0.0",
   "description": "test package :D",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
+
   "devDependencies": {
     "parcel": "^2.10.1",
     "posthtml-doctype": "^1.1.1"
