@@ -7,8 +7,9 @@ body {
   margin: 0;
 }
 
-#menu {
-  display: block;
+#menu button {
+  background: none;
+  border: none;
 }
 
 nav {
@@ -20,10 +21,6 @@ nav {
   height: 60px;
   display: flex;
   position: absolute;
-}
-
-nav li {
-  padding-left: 10px;
 }
 
 #icoli {

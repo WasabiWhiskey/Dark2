@@ -5,7 +5,12 @@ body {
     margin: 0px;
 }
 
-#menu {display: block}
+#menu button {
+    /* display: inline-block */
+    background: none;
+    border: none;
+
+}
 
 nav {
     background: #fff2c6;
@@ -16,14 +21,6 @@ nav {
     align-items: stretch;
     height: 60px;
     width: 100%;
-}
-
-nav:hover {
-
-}
-
-nav li {
-    padding-left: 10px;
 }
 
 #icoli {
