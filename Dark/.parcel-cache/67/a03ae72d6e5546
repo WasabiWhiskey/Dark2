@@ -1,5 +1,0 @@
-#menu {
-  align-items: normal;
-  display: block;
-  position: fixed;
-}

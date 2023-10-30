@@ -1,4 +1,8 @@
 {
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ],
   "name": "darker",
   "source": "./src/index.html",
   "version": "1.0.0",
