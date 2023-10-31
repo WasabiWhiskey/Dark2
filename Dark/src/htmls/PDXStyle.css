@@ -1,14 +1,9 @@
 html {
     height: 0px;}
 
-.background{
-    position: absolute;
-    size: 200%;  
-}
-
 body {
     background-image: url("../imgs/bosque.png");
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
     background-position-x: center;
     background-position-y: top;
@@ -36,7 +31,7 @@ nav {
     background: #40685f !important;
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: static;
     justify-content:stretch;
     align-items: stretch;
     height: 60px;

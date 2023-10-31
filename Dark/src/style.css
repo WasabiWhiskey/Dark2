@@ -1,21 +1,6 @@
 html {
     height: 0px;}
 
-.background{
-    position: absolute;
-    size: 200%;  
-}
-
-body {
-    background-image: url("imgs/bosque.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: top;
-    background-color: #203833; 
-    margin: 0px; 
-}
-
 nav button {
     /* position: inherit; */
     height: 60px;
@@ -36,7 +21,7 @@ nav {
     background: #40685f !important;
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: static;
     justify-content:stretch;
     align-items: stretch;
     height: 60px;
@@ -46,4 +31,20 @@ nav {
 #icoli {
  width: 50px;
  height: 50px;
+}
+
+body {
+    background-image: url("imgs/bosque.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: #203833; 
+    margin: 0px; 
+}
+
+#título{
+    background-color: #203833; 
+    padding-left: 50px;
+    color: white;
 }
