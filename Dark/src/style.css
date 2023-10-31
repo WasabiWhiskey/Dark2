@@ -1,18 +1,43 @@
-html {height: 0px;}
+html {
+    height: 0px;}
 
-body {
-    background-color: #3b4229;
-    margin: 0px;
+.background{
+    position: absolute;
+    size: 200%;  
 }
 
-#menu {display: block}
+body {
+    background-image: url("imgs/bosque.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: #203833; 
+    margin: 0px; 
+}
+
+nav button {
+    /* position: inherit; */
+    height: 60px;
+    display:block;
+    background: none; 
+    border: none;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 6px 12px !important;
+}
+
+nav button:hover{
+    background: #203833;
+
+}
 
 nav {
-    background: #fff2c6;
+    background: #40685f !important;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    justify-content:stretch;
     align-items: stretch;
     height: 60px;
     width: 100%;
