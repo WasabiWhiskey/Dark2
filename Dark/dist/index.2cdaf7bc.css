@@ -8,6 +8,8 @@ nav button {
   border: none;
   height: 60px;
   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
   display: block;
   padding: 6px 12px !important;
 }
@@ -51,7 +53,7 @@ body {
   margin: 0;
 }
 
-#título {
+#titulo {
   color: #fff;
   background-color: #203833;
   padding-left: 50px;

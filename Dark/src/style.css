@@ -9,6 +9,8 @@ nav button {
     border: none;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-weight: bold;
     padding: 6px 12px !important;
 }
 
@@ -51,7 +53,7 @@ body {
     margin: 0px; 
 }
 
-#título{
+#titulo{
     background-color: #203833; 
     padding-left: 50px;
     color: white;

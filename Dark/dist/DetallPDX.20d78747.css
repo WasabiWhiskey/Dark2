@@ -2,27 +2,30 @@ html {
   height: 0;
 }
 
-body {
-  background-color: #203833;
-  background-image: url("bosque.5b7b1196.png");
-  background-position: top;
-  background-size: 100%;
-  background-attachment: fixed;
-  margin: 0;
-}
-
 nav button {
   text-transform: uppercase;
   background: none;
   border: none;
   height: 60px;
   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
   display: block;
   padding: 6px 12px !important;
 }
 
 nav button:hover {
   background: #203833;
+  border: 1px solid #4c746c;
+  border-radius: 10% / 50%;
+  box-shadow: 1px 2px 5px #000;
+}
+
+nav button:active {
+  background: #203833;
+  border: 1px solid #4c746c;
+  border-radius: 10% / 50%;
+  box-shadow: inset 1px 2px 5px #000;
 }
 
 nav {
@@ -39,6 +42,21 @@ nav {
 #icoli {
   width: 50px;
   height: 50px;
+}
+
+body {
+  background-color: #203833;
+  background-image: url("bosque.5b7b1196.png");
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#content1 {
+  color: #fff;
+  background-color: #203833;
+  padding-left: 50px;
 }
 
 /*# sourceMappingURL=DetallPDX.20d78747.css.map */
