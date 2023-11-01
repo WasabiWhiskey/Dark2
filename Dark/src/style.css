@@ -1,9 +1,11 @@
+/* PRIMER ALGUNS AJUSTAMENTS A LA PÀGINA GENERAL */
 html {
     height: 0px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
 }
 
+/* MÉS ENDEVANT UTILITZARÉ AQUEST KEFRAME PER ANIMAR ELS BOTONS */
 @keyframes luz {
     from {
         background-color: none; 
@@ -19,18 +21,18 @@ html {
         box-shadow: 1px 2px 5px  #000000;}  
 }
 
+/* AQUÍ DONO ESTIL A LA BARRA DE NAVEGACIÓ I ALS BOTONS DE LA MATEIXA*/
 nav {
     background: #40685f !important;
     display: flex;
     flex-direction: row;
     position: static;
-    justify-content:stretch;
+    justify-content: stretch;
     text-decoration: none;
     align-items: stretch;
     height: 60px;
     width: 100%;
 }
-
 nav button {
     /* position: inherit; */
     height: 60px;
@@ -43,7 +45,6 @@ nav button {
     font-weight: bold;
     padding: 6px 12px !important;
 }
-
 nav button:hover{
     background: #203833;
     border: 1px solid #4c746c;
@@ -56,12 +57,12 @@ nav button:active{
     border-radius: 10% / 50%;
     box-shadow: 1px 2px 5px inset #000000;
 }
-
 #icoli {
  width: 50px;
  height: 50px;
 }
 
+/* COM JA TINC LA BARRA DE NAVEGACIÓ FIXADA, ARA CONFIGURO EL COS DE LA PÀGINA */
 body {
     background-image: url("imgs/bosque.png");
     background-attachment: fixed;
@@ -72,11 +73,13 @@ body {
     margin: 0px; 
 }
 
+/* AQUÍ DONO ALS ESPAIS LA SEVA ALÇADA */
 #SPC {
     height: 50px;
     display: flex;
 }
 
+/* ARA DONO FORMA A LA PRIMERA GRID AMB EL TEXT I LA CONFIGURACIÓ DELS BOTONS (#BYE) QUE USARAN LES ALTRES GRIDS */
 #LCAT{
     display: grid;
     grid-template-columns: 1fr, 1fr;
@@ -85,12 +88,10 @@ body {
     padding-left: 50px;
     color: #A5ADAB;
 }
-
 .G1 {
     grid-column: 1;
     grid-row: 1;
 }
-
 #BYE {
     background: none;
     border-radius: 10% / 50%;
@@ -99,7 +100,6 @@ body {
     font-weight: bold;
     color: #A5ADAB;
 }
-
 #BYE:hover {
     animation: "luz" 250ms linear;
     animation-duration: 1000ms;
@@ -107,22 +107,21 @@ body {
     color: #ecf1f0;
     box-shadow: 1px 2px 5px  #000000;
 }
-
 #BYE:active {
     background: #203833;
     box-shadow: inset 1px 2px 5px  #000000;
 }
-
 .G2 {
     grid-column: 2;
     grid-row: 1;
     border: 1px #000000;
 }
-
+/* AQUEST ES L'ESTIL DE LES IMATGES (L'OMBRA) */
 #boy {
     box-shadow: 1px 1px 5px black;
 }
 
+/* AQUÍ RECICLO LA CONFIGURACIÓ PERÒ CANVIO LE CEL·LES DE LLOC PER LA SEGONA GRID*/
 #LPRE{
     display: grid;
     grid-template-columns: 1fr, 1fr;
@@ -131,17 +130,16 @@ body {
     padding-left: 50px;
     color: #A5ADAB;
 }
-
 .G3 {
     grid-column: 2;
     grid-row: 1;
 }
-
 .G4 {
     grid-column: 1;
     grid-row: 1;
 }
 
+/* I AQUÍ TORNO A CONFIGURAR-HO TOT COM LA PRIMERA GRID PER FER LA TERCERA */
 #LLINK{
     display: grid;
     grid-template-columns: 1fr, 1fr;
@@ -151,16 +149,20 @@ body {
     color: #A5ADAB;
 }
 
+/* AIXÒ ÉS UN ESPACIADOR UNA MICA MÉS GRAN PEL FOOTER */
 #FSPC{height:116px;}
 
+/* AQUÍ CONFIGURO EL FOOTER */
 footer{
     background-color: #40685f !important;
     height: 100px;
 }
 
+/* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ */
 #FT {
-    display: flex;
-    left: 200px;
+    position: absolute;
+    left: 40%;
+    top: 156%;
     background: none;
     border-radius: 10% / 50%;
     border-color: #162724;

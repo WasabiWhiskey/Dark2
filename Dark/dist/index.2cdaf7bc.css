@@ -165,8 +165,9 @@ footer {
   border-radius: 10% / 50%;
   padding: 10px 50px;
   font-weight: bold;
-  display: flex;
-  left: 200px;
+  position: absolute;
+  top: 156%;
+  left: 40%;
 }
 
 #FT:hover {

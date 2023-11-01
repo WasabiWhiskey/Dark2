@@ -1,4 +1,4 @@
-6950
+6954
 40/home/adduser/Dark/dist/OIG.faecb3e9.jpg1698859237175299462 0
 46/home/adduser/Dark/dist/Categoria.2acbe7ca.css1698602881897256238 0
 49/home/adduser/Dark/dist/Presentacio.4fa6ef0a.html1698689178814987069 0
@@ -55,9 +55,11 @@
 41/home/adduser/Dark/dist/index.86a28ff9.js1698602921147254785 0
 48/home/adduser/Dark/dist/Presentacio.4eabfe20.css1698689178554987061 0
 46/home/adduser/Dark/dist/index.c1b642b5.css.map1698777185715577452 0
+42/home/adduser/Dark/dist/index.a900e092.css1698860740545211154 0
 42/home/adduser/Dark/dist/index.b3d8dc67.css1698603045187250807 0
 47/home/adduser/Dark/dist/Categoria.d6462e26.html1698602921137254785 0
 46/home/adduser/Dark/dist/index.b3d8dc67.css.map1698603045197250807 0
+42/home/adduser/Dark/dist/index.69531756.css1698860646565219483 0
 47/home/adduser/Dark/dist/DetallPDX.85ea1ced.html1698774028829547244 0
 42/home/adduser/Dark/dist/index.b57c06a7.css1698859370315291244 0
 41/home/adduser/Dark/dist/trin.1a39dd72.ico1698697091992140128 0
@@ -65,7 +67,7 @@
 46/home/adduser/Dark/dist/DetallPDX.b2513f58.css1698693762545104924 0
 41/home/adduser/Dark/dist/Links.15b092a2.js1698602921147254785 0
 52/home/adduser/Dark/dist/Presentacio.b6301353.css.map1698693762555104932 0
-46/home/adduser/Dark/dist/index.2cdaf7bc.css.map1698859324565293770 0
+46/home/adduser/Dark/dist/index.2cdaf7bc.css.map1698860729545212473 0
 46/home/adduser/Dark/dist/Categoria.5cc5f47b.css1698693943555111508 0
 42/home/adduser/Dark/dist/index.c1b642b5.css1698777185715577452 0
 50/home/adduser/Dark/dist/Categoria.43f23aac.css.map1698693762555104932 0
@@ -74,11 +76,12 @@
 45/home/adduser/Dark/dist/Categoria.e739780d.js1698859237245299456 0
 47/home/adduser/Dark/dist/DetallPDX.226593f7.html1698693762545104924 0
 42/home/adduser/Dark/dist/Links.4caf157a.css1698602924657254685 0
+46/home/adduser/Dark/dist/index.a900e092.css.map1698860740545211154 0
 47/home/adduser/Dark/dist/DetallPDX.230099c6.html1698697092852140149 0
-23/home/adduser/Dark/dist1698859370315291244 1
+23/home/adduser/Dark/dist1698860740545211154 1
 31/home/adduser/Dark/package.json1698704892712346486 0
 29/home/adduser/Dark/src/app.js1697647884101455300 0
-32/home/adduser/Dark/src/style.css1698859326995293701 0
+32/home/adduser/Dark/src/style.css1698860729415212463 0
 43/home/adduser/Dark/src/htmls/DetallPDX.html1698785818427130839 0
 43/home/adduser/Dark/src/htmls/Categoria.html1698786239436763232 0
 41/home/adduser/Dark/src/htmls/PDXStyle.css1698789492035048829 0
@@ -109,6 +112,7 @@
 62/home/adduser/Dark/node_modules/nth-check/lib/esm/compile.d.ts1698606375817146436 0
 58/home/adduser/Dark/node_modules/nth-check/lib/esm/parse.js1698606375577146449 0
 62/home/adduser/Dark/node_modules/nth-check/lib/esm/index.js.map1698606375747146440 0
+46/home/adduser/Dark/dist/index.69531756.css.map1698860646565219483 0
 60/home/adduser/Dark/node_modules/nth-check/lib/esm/index.d.ts1698606375837146436 0
 64/home/adduser/Dark/node_modules/nth-check/lib/esm/parse.d.ts.map1698606375767146438 0
 58/home/adduser/Dark/node_modules/nth-check/lib/esm/index.js1698606375527146454 0
@@ -1278,7 +1282,7 @@
 58/home/adduser/Dark/node_modules/domutils/lib/querying.d.ts1698606375867146434 0
 91/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/walker1698606376467146399 1
 90/home/adduser/Dark/node_modules/@parcel/package-manager/test/fixtures/has-foo/package.json1698606377907146315 0
-34/home/adduser/Dark/dist/index.html1698859370315291244 0
+34/home/adduser/Dark/dist/index.html1698860740545211154 0
 89/home/adduser/Dark/node_modules/csso/node_modules/css-tree/cjs/syntax/atrule/supports.cjs1698606376507146396 0
 97/home/adduser/Dark/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/convertColors.js1698606375887146432 0
 113/home/adduser/Dark/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/AttributeSelector.js1698606375747146440 0
@@ -3029,7 +3033,7 @@
 59/home/adduser/Dark/node_modules/css-tree/lib/lexer/error.js1698606376777146381 0
 71/home/adduser/Dark/node_modules/yaml/dist/compose/compose-collection.js1698697470672150388 0
 96/home/adduser/Dark/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose/package.json1698606376907146372 0
-42/home/adduser/Dark/dist/index.2cdaf7bc.css1698859324565293770 0
+42/home/adduser/Dark/dist/index.2cdaf7bc.css1698860729545212473 0
 62/home/adduser/Dark/node_modules/@swc/helpers/src/_to_array.mjs1698606377037146366 0
 71/home/adduser/Dark/node_modules/@parcel/packager-svg/lib/SVGPackager.js1698606376667146388 0
 73/home/adduser/Dark/node_modules/caniuse-lite/data/features/multicolumn.js1698697981612165052 0
