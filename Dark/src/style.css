@@ -21,18 +21,24 @@ html {
         box-shadow: 1px 2px 5px  #000000;}  
 }
 
+@media screen and (min-width: 480px) {
+    #i {
+      width: calc(100%);
+    }
+  }
+
 /* AQUÍ DONO ESTIL A LA BARRA DE NAVEGACIÓ I ALS BOTONS DE LA MATEIXA*/
 nav {
     background: #40685f !important;
     display: flex;
     flex-direction: row;
     position: static;
-    justify-content:space-evenly;
-    text-decoration: none;
-    align-items: stretch;
+    justify-content:stretch;
+    align-items: center;
     height: 60px;
     width: 100%;
 }
+
 nav button {
     /* position: inherit; */
     height: 60px;
@@ -43,7 +49,7 @@ nav button {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
     font-weight: bold;
-    padding: 6px 52px !important;
+    padding: 6px 12px !important;
 }
 nav button:hover{
     background: #203833;
@@ -71,7 +77,7 @@ body {
     background-position-x: center;
     background-position-y: top;
     background-color: #203833; 
-    margin: 0px; 
+    margin: 0; 
 }
 
 /* AQUÍ DONO ALS ESPAIS LA SEVA ALÇADA */
@@ -84,14 +90,9 @@ body {
 #LCAT{
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    height: 212px;
+    height: 13rem;
     background-color: #203833; 
-    padding-left: 50px;
     color: #A5ADAB;
-}
-.G1 {
-    grid-column: 1;
-    grid-row: 1;
 }
 #BYE {
     background: none;
@@ -112,41 +113,53 @@ body {
     background: #203833;
     box-shadow: inset 1px 2px 5px  #000000;
 }
-.G2 {
+#G1 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+    padding-right: 15rem;
+}
+#G2 {
     grid-column: 2;
     grid-row: 1;
     border: 1px #000000;
+    padding-left: 1rem;
 }
 /* AQUEST ES L'ESTIL DE LES IMATGES (L'OMBRA) */
-#boy {
+
+.boy {
     box-shadow: 1px 1px 5px black;
+    display: flex;
+    position: static;
+    float: center;
 }
 
 /* AQUÍ RECICLO LA CONFIGURACIÓ PERÒ CANVIO LE CEL·LES DE LLOC PER LA SEGONA GRID*/
 #LPRE{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    height: 212px;
+    grid-template-columns: 1, 1;
+    height: 13rem;
     background-color: #203833; 
-    padding-left: 50px;
     color: #A5ADAB;
 }
-.G3 {
+#G3 {
     grid-column: 2;
     grid-row: 1;
+    padding-left: 15rem;
 }
-.G4 {
+#G4 {
     grid-column: 1;
     grid-row: 1;
+    text-align: right;
+    padding-right: 1rem;
 }
 
 /* I AQUÍ TORNO A CONFIGURAR-HO TOT COM LA PRIMERA GRID PER FER LA TERCERA */
 #LLINK{
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    height: 212px;
+    height: 13rem;
     background-color: #203833; 
-    padding-left: 50px;
     color: #A5ADAB;
 }
 
@@ -163,9 +176,11 @@ footer {
     grid-template-columns: 1, 1, 1;
 }
 
-.foot {
+#foot {
     height: inherit;
     width: 100%;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 #GF1 {
@@ -179,16 +194,14 @@ footer {
 }
 /* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ */
 #FT {
-    translate: 90% 50%;
-    width: 33%;
-    grid-column: 2;
-    grid-row: 1;
+    translate: 0% 70%;
+    width: 90%;
     background: none;
     border-radius: 10% / 50%;
     border-color: #162724;
     padding: 10px 50px 10px 50px;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     color: #A5ADAB;
 }
 
