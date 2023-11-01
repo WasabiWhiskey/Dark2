@@ -27,7 +27,7 @@ nav {
     display: flex;
     flex-direction: row;
     position: static;
-    justify-content: stretch;
+    justify-content:space-evenly;
     text-decoration: none;
     align-items: stretch;
     height: 60px;
@@ -43,7 +43,7 @@ nav button {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
     font-weight: bold;
-    padding: 6px 12px !important;
+    padding: 6px 52px !important;
 }
 nav button:hover{
     background: #203833;
@@ -153,16 +153,33 @@ body {
 #FSPC{height:116px;}
 
 /* AQUÍ CONFIGURO EL FOOTER */
-footer{
+footer {
     background-color: #40685f !important;
     height: 100px;
+    display: grid;
+    grid-template-columns: 1, 1, 1;
 }
 
+.foot {
+    height: inherit;
+    width: 100%;
+}
+
+#GF1 {
+    background-color: #40685f;
+    float: left;
+    display: block;
+    height: inherit;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+}
 /* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ */
 #FT {
-    position: absolute;
-    left: 40%;
-    top: 156%;
+    translate: 90% 50%;
+    width: 33%;
+    grid-column: 2;
+    grid-row: 1;
     background: none;
     border-radius: 10% / 50%;
     border-color: #162724;
@@ -183,3 +200,13 @@ footer{
     background: #203833;
     box-shadow: inset 1px 2px 5px  #000000;
 }
+
+#GF2 {
+    float: right;
+    display: block;
+    height: inherit;
+    width: 33%;
+    grid-column: 3;
+    grid-row: 1;
+}
+
