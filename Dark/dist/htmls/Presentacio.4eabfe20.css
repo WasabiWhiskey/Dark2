@@ -59,4 +59,64 @@ body {
   padding-left: 50px;
 }
 
+#FSPC {
+  height: 116px;
+}
+
+footer {
+  grid-template-columns: 1, 1, 1;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  position: fixed;
+  bottom: 0;
+  background-color: #40685f !important;
+}
+
+.foot {
+  height: inherit;
+  width: 100%;
+}
+
+#GF1 {
+  float: left;
+  height: inherit;
+  background-color: #40685f;
+  grid-area: 1 / 1;
+  width: 100%;
+  display: block;
+}
+
+#FT {
+  color: #a5adab;
+  background: none;
+  border-color: #162724;
+  border-radius: 10% / 50%;
+  grid-area: 1 / 2;
+  width: 33%;
+  padding: 10px 50px;
+  font-weight: bold;
+  translate: 90% 50%;
+}
+
+#FT:hover {
+  color: #ecf1f0;
+  background-color: #4c746c;
+  animation: 1s linear luz;
+  box-shadow: 1px 2px 5px #000;
+}
+
+#FT:active {
+  background: #203833;
+  box-shadow: inset 1px 2px 5px #000;
+}
+
+#GF2 {
+  float: right;
+  height: inherit;
+  grid-area: 1 / 3;
+  width: 33%;
+  display: block;
+}
+
 /*# sourceMappingURL=Presentacio.4eabfe20.css.map */

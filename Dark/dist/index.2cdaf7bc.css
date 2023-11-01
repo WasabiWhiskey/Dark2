@@ -155,8 +155,11 @@ body {
 
 footer {
   grid-template-columns: 1, 1, 1;
+  width: 100%;
   height: 100px;
   display: grid;
+  position: fixed;
+  bottom: 0;
   background-color: #40685f !important;
 }
 

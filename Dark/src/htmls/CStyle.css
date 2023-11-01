@@ -75,3 +75,67 @@ body {
 #paradojas:hover{
     font-size: 32px;
 }
+
+
+
+#FSPC{height:116px;}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #40685f !important;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1, 1, 1;
+}
+
+.foot {
+    height: inherit;
+    width: 100%;
+}
+
+#GF1 {
+    background-color: #40685f;
+    float: left;
+    display: block;
+    height: inherit;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+}
+/* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ */
+#FT {
+    translate: 90% 50%;
+    width: 33%;
+    grid-column: 2;
+    grid-row: 1;
+    background: none;
+    border-radius: 10% / 50%;
+    border-color: #162724;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    color: #A5ADAB;
+}
+
+#FT:hover {
+    animation: "luz" 250ms linear;
+    animation-duration: 1000ms;
+    background-color: #4c746c;
+    color: #ecf1f0;
+    box-shadow: 1px 2px 5px  #000000;
+}
+
+#FT:active {
+    background: #203833;
+    box-shadow: inset 1px 2px 5px  #000000;
+}
+
+#GF2 {
+    float: right;
+    display: block;
+    height: inherit;
+    width: 33%;
+    grid-column: 3;
+    grid-row: 1;
+}

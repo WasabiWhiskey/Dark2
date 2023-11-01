@@ -154,6 +154,9 @@ body {
 
 /* AQUÍ CONFIGURO EL FOOTER */
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
     background-color: #40685f !important;
     height: 100px;
     display: grid;
