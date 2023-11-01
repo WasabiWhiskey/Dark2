@@ -1,4 +1,4 @@
-7206
+7208
 30/home/adduser/Dark/.posthtmlrc1698863138695074927 0
 40/home/adduser/Dark/dist/OIG.faecb3e9.jpg1698863661275043963 0
 46/home/adduser/Dark/dist/Categoria.2acbe7ca.css1698602881897256238 0
@@ -33,6 +33,7 @@
 50/home/adduser/Dark/dist/DetallPDX.74bda938.css.map1698697092872140149 0
 47/home/adduser/Dark/dist/Categoria.2f65647f.html1698689178814987069 0
 49/home/adduser/Dark/dist/Presentacio.3d557537.html1698602921137254785 0
+42/home/adduser/Dark/dist/index.057aa0ea.css1698875206012570540 0
 45/home/adduser/Dark/dist/index.8c51a261.js.map1698697092872140149 0
 48/home/adduser/Dark/dist/Presentacio.ac064dca.css1698602924657254685 0
 48/home/adduser/Dark/dist/htmls/Links.5160b511.css1698872341026101242 0
@@ -81,7 +82,7 @@
 42/home/adduser/Dark/dist/index.0ecaee32.css1698863159095073582 0
 41/home/adduser/Dark/dist/Links.15b092a2.js1698602921147254785 0
 52/home/adduser/Dark/dist/Presentacio.b6301353.css.map1698693762555104932 0
-46/home/adduser/Dark/dist/index.2cdaf7bc.css.map1698872387379540349 0
+46/home/adduser/Dark/dist/index.2cdaf7bc.css.map1698875191552061829 0
 46/home/adduser/Dark/dist/Categoria.5cc5f47b.css1698693943555111508 0
 42/home/adduser/Dark/dist/index.c1b642b5.css1698777185715577452 0
 50/home/adduser/Dark/dist/Categoria.43f23aac.css.map1698693762555104932 0
@@ -94,10 +95,10 @@
 42/home/adduser/Dark/dist/Links.4caf157a.css1698602924657254685 0
 46/home/adduser/Dark/dist/index.a900e092.css.map1698860740545211154 0
 47/home/adduser/Dark/dist/DetallPDX.230099c6.html1698697092852140149 0
-23/home/adduser/Dark/dist1698872404190787143 1
+23/home/adduser/Dark/dist1698875206012570540 1
 31/home/adduser/Dark/package.json1698863660235044029 0
 29/home/adduser/Dark/src/app.js1697647884101455300 0
-32/home/adduser/Dark/src/style.css1698872387349538122 0
+32/home/adduser/Dark/src/style.css1698875191512060425 0
 34/home/adduser/Dark/src/.posthtmlrc1698862914905086992 0
 43/home/adduser/Dark/src/htmls/DetallPDX.html1698872101478337043 0
 43/home/adduser/Dark/src/htmls/Categoria.html1698872102918443830 0
@@ -281,6 +282,7 @@
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/LA.js1698697981592165052 0
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/GP.js1698697981552165053 0
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/AD.js1698697981382165052 0
+46/home/adduser/Dark/dist/index.057aa0ea.css.map1698875206012570540 0
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/LC.js1698697981592165052 0
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/GH.js1698697981552165053 0
 63/home/adduser/Dark/node_modules/caniuse-lite/data/regions/DJ.js1698697981512165053 0
@@ -1406,7 +1408,7 @@
 58/home/adduser/Dark/node_modules/domutils/lib/querying.d.ts1698606375867146434 0
 91/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/walker1698606376467146399 1
 90/home/adduser/Dark/node_modules/@parcel/package-manager/test/fixtures/has-foo/package.json1698606377907146315 0
-34/home/adduser/Dark/dist/index.html1698872404180786401 0
+34/home/adduser/Dark/dist/index.html1698875206012570540 0
 89/home/adduser/Dark/node_modules/csso/node_modules/css-tree/cjs/syntax/atrule/supports.cjs1698606376507146396 0
 97/home/adduser/Dark/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/convertColors.js1698606375887146432 0
 48/home/adduser/Dark/node_modules/htmlnano/test.js1698606378307146293 0
@@ -3563,7 +3565,7 @@
 61/home/adduser/Dark/node_modules/source-map-js/source-map.d.ts1698606375857146434 0
 88/home/adduser/Dark/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/restructure1698606376267146410 1
 45/home/adduser/Dark/node_modules/msgpackr/dist1698606376397146403 1
-42/home/adduser/Dark/dist/index.2cdaf7bc.css1698872387379540349 0
+42/home/adduser/Dark/dist/index.2cdaf7bc.css1698875191542061479 0
 62/home/adduser/Dark/node_modules/@swc/helpers/src/_to_array.mjs1698606377037146366 0
 71/home/adduser/Dark/node_modules/@parcel/packager-svg/lib/SVGPackager.js1698606376667146388 0
 73/home/adduser/Dark/node_modules/caniuse-lite/data/features/multicolumn.js1698697981612165052 0

@@ -66,6 +66,7 @@ nav button:active{
 body {
     background-image: url("imgs/bosque.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: center;
     background-position-y: top;
@@ -153,9 +154,8 @@ body {
 #FSPC{height:116px;}
 
 /* AQUÍ CONFIGURO EL FOOTER */
-footer {
-    position: fixed;
-    bottom: 0;
+footer {   
+    position: sticky;
     width: 100%; 
     background-color: #40685f !important;
     height: 100px;
@@ -188,6 +188,7 @@ footer {
     border-color: #162724;
     padding: 10px 50px 10px 50px;
     font-weight: bold;
+    text-align: justify;
     color: #A5ADAB;
 }
 
