@@ -90,67 +90,73 @@ body {
   grid-template-columns: 1fr, 1fr;
   color: #a5adab;
   background-color: #203833;
-  height: 13rem;
+  height: 28vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: normal;
   display: grid;
 }
 
-#BYE {
+.BYE {
   color: #a5adab;
   background: none;
   border-color: #162724;
   border-radius: 10% / 50%;
-  padding: 10px 50px;
-  font-weight: bold;
+  padding: 1vw 2vw;
+  font-size: 2.5vw !important;
+  font-weight: bold !important;
 }
 
-#BYE:hover {
+.BYE:hover {
   color: #ecf1f0;
   background-color: #4c746c;
   animation: 1s linear luz;
   box-shadow: 1px 2px 5px #000;
 }
 
-#BYE:active {
+.BYE:active {
   background: #203833;
   box-shadow: inset 1px 2px 5px #000;
 }
 
+.boy {
+  width: 29vw;
+  height: 29vw;
+  box-shadow: 1px 1px 5px #000;
+}
+
 #G1 {
+  text-shadow: 1px 1px 1px #000;
   text-align: right;
   grid-area: 1 / 1;
-  padding-right: 15rem;
+  height: 25vw;
+  padding-right: 5vw;
 }
 
 #G2 {
   border: 1px #000;
   grid-area: 1 / 2;
-  padding-left: 1rem;
-}
-
-.boy {
-  float: center;
-  display: flex;
-  position: static;
-  box-shadow: 1px 1px 5px #000;
 }
 
 #LPRE {
   grid-template-columns: 1, 1;
   color: #a5adab;
   background-color: #203833;
-  height: 13rem;
+  height: 28vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
   display: grid;
 }
 
 #G3 {
+  text-shadow: 1px 1px 1px #000;
   grid-area: 1 / 2;
-  padding-left: 15rem;
+  padding-left: 5vw;
 }
 
 #G4 {
-  text-align: right;
   grid-area: 1 / 1;
-  padding-right: 1rem;
+  text-align: right !important;
 }
 
 #LLINK {
@@ -158,6 +164,8 @@ body {
   color: #a5adab;
   background-color: #203833;
   height: 13rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   display: grid;
 }
 
