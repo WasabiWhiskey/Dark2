@@ -53,22 +53,136 @@ body {
   margin: 0;
 }
 
+.BYE {
+  color: #a5adab;
+  background: none;
+  border-color: #162724;
+  border-radius: 10% / 50%;
+  margin-bottom: 15px;
+  padding: 1vw 2vw;
+  margin-top: 0 !important;
+  font-size: 2.5vw !important;
+  font-weight: bold !important;
+}
+
+.BYE:hover {
+  color: #ecf1f0;
+  background-color: #4c746c;
+  animation: 1s linear luz;
+  box-shadow: 1px 2px 5px #000;
+}
+
+.BYE:active {
+  background: #203833;
+  box-shadow: inset 1px 2px 5px #000;
+}
+
+.boy {
+  width: 29vw;
+  height: 29vw;
+  box-shadow: 1px 1px 5px #000;
+}
+
 #content1 {
-  color: #fff;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
   background-color: #203833;
-  padding-left: 50px;
+  padding: 10px 40px 10px 50px;
 }
 
-#paradojas {
-  color: gray;
-  text-transform: lowercase;
-  font-size: 16px;
-  font-style: normal;
-  text-decoration: none;
+#content2 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
 }
 
-#paradojas:hover {
-  font-size: 32px;
+#G1 {
+  grid-area: 1 / 1;
+  padding-right: 15px;
+}
+
+#G2 {
+  grid-area: 1 / 2;
+}
+
+#content3 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G3 {
+  grid-area: 1 / 2;
+  padding-left: 15px;
+}
+
+#G4 {
+  grid-area: 1 / 1;
+}
+
+#content4 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G5 {
+  grid-area: 1 / 1;
+  padding-right: 15px;
+}
+
+#G6 {
+  grid-area: 1 / 2;
+}
+
+#content5 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G7 {
+  grid-area: 1 / 2;
+  padding-left: 15px;
+}
+
+#G8 {
+  grid-area: 1 / 1;
+}
+
+#content6 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G9 {
+  grid-area: 1 / 1;
+  padding-right: 15px;
+}
+
+#G10 {
+  grid-area: 1 / 2;
 }
 
 #FSPC {
