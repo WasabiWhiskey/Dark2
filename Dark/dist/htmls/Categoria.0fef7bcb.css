@@ -1,5 +1,7 @@
 html {
   height: 0;
+  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
 nav button {
@@ -106,6 +108,7 @@ body {
 }
 
 #G2 {
+  text-align: center;
   grid-area: 1 / 2;
 }
 
@@ -125,6 +128,7 @@ body {
 }
 
 #G4 {
+  text-align: center;
   grid-area: 1 / 1;
 }
 

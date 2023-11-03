@@ -1,5 +1,8 @@
 html {
-    height: 0px;}
+    height: 0px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
 
 nav button {
     /* position: inherit; */
@@ -44,6 +47,7 @@ nav {
 }
 
 body {
+    color: #A5ADAB;
     background-image: url("../imgs/bosque.png");
     background-attachment: fixed;
     background-size: cover;
@@ -53,10 +57,22 @@ body {
     margin: 0px; 
 }
 
+.navb  {
+    text-decoration: none !important;
+}
+
 #content1{
     background-color: #203833; 
     padding-left: 50px;
-    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#content2{
+    padding-top: 10px;
+    background-color: #203833; 
+    padding-bottom: 15px;
 }
 
 

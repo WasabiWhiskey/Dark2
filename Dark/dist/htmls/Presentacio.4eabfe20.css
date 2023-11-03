@@ -1,5 +1,7 @@
 html {
   height: 0;
+  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
 nav button {
@@ -54,9 +56,88 @@ body {
 }
 
 #content1 {
-  color: #fff;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
   background-color: #203833;
-  padding-left: 50px;
+  padding: 10px 40px 10px 50px;
+}
+
+#content2 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G1 {
+  grid-area: 1 / 1;
+  padding-right: 15px;
+}
+
+#G2 {
+  text-align: center;
+  grid-area: 1 / 2;
+}
+
+#content3 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G3 {
+  grid-area: 1 / 2;
+  padding-left: 15px;
+}
+
+#G4 {
+  text-align: center;
+  grid-area: 1 / 1;
+}
+
+#content4 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G5 {
+  grid-area: 1 / 1;
+  padding-right: 15px;
+}
+
+#G6 {
+  grid-area: 1 / 2;
+}
+
+#content5 {
+  grid-template-columns: 1, 1;
+  color: #a5adab;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #203833;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: grid;
+}
+
+#G7 {
+  grid-area: 1 / 2;
+  padding-left: 15px;
+}
+
+#G8 {
+  grid-area: 1 / 1;
 }
 
 #FSPC {
