@@ -1,14 +1,15 @@
-9619
+9621
 30/home/adduser/Dark/.posthtmlrc1700501947139874242 0
 40/home/adduser/Dark/dist/Presentacio.html1700510723710962167 0
 41/home/adduser/Dark/dist/index.9fdc7770.js1700510187052289709 0
 43/home/adduser/Dark/dist/ÁRBOL.682c8cb5.jpg1700510183681806207 0
-46/home/adduser/Dark/dist/Links.5438487b.css.map1700510183981849249 0
+46/home/adduser/Dark/dist/Links.5438487b.css.map1700510817610943719 0
 44/home/adduser/Dark/dist/TRISKEL.c8360943.jpg1700510187052289709 0
 55/home/adduser/Dark/dist/BARRILES_AMARILLOS.28854480.jpg1700510183681806207 0
+46/home/adduser/Dark/dist/Links.64134bd2.css.map1700510827772024535 0
 41/home/adduser/Dark/dist/OIG2.91430c23.jpg1700510183981849249 0
 45/home/adduser/Dark/dist/Links.95160a4e.js.map1700510183981849249 0
-42/home/adduser/Dark/dist/Links.5438487b.css1700510183981849249 0
+42/home/adduser/Dark/dist/Links.5438487b.css1700510817610943719 0
 45/home/adduser/Dark/dist/DetallPDX.096e90b9.js1700510183681806207 0
 38/home/adduser/Dark/dist/DetallPDX.html1700510183681806207 0
 48/home/adduser/Dark/dist/Presentacio.5e4aa540.css1700510723710962167 0
@@ -20,11 +21,11 @@
 45/home/adduser/Dark/dist/Categoria.76026c04.js1700510183681806207 0
 52/home/adduser/Dark/dist/Presentacio.5e4aa540.css.map1700510723710962167 0
 41/home/adduser/Dark/dist/trin.1a39dd72.ico1700510187062291144 0
-34/home/adduser/Dark/dist/Links.html1700510183981849249 0
+34/home/adduser/Dark/dist/Links.html1700510827762023472 0
 41/home/adduser/Dark/dist/mapa.3013f063.jpg1700510183981849249 0
 46/home/adduser/Dark/dist/Categoria.529cfa66.css1700510183681806207 0
 45/home/adduser/Dark/dist/index.9fdc7770.js.map1700510187092295448 0
-23/home/adduser/Dark/dist1700510723710962167 1
+23/home/adduser/Dark/dist1700510827772024535 1
 31/home/adduser/Dark/package.json1700499766089970932 0
 37/home/adduser/Dark/src/DetallPDX.html1700509120955288032 0
 34/home/adduser/Dark/src/.posthtmlrc1700502735139884785 0
@@ -612,6 +613,7 @@
 58/home/adduser/Dark/node_modules/require-directory/index.js1698697470312150358 0
 65/home/adduser/Dark/node_modules/require-directory/README.markdown1698697470332150360 0
 57/home/adduser/Dark/node_modules/require-directory/LICENSE1698697470302150355 0
+42/home/adduser/Dark/dist/Links.64134bd2.css1700510827762023472 0
 49/home/adduser/Dark/node_modules/require-directory1698697470322150357 1
 44/home/adduser/Dark/node_modules/ms/readme.md1700474788490543113 0
 53/home/adduser/Dark/node_modules/js-yaml/lib/common.js1698606375577146449 0
@@ -9486,7 +9488,7 @@
 81/home/adduser/Dark/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/crypto.c1698606376087146421 0
 81/home/adduser/Dark/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.c1698606376427146401 0
 52/home/adduser/Dark/dist/Presentacio.ef8add66.css.map1700510714159947225 0
-52/home/adduser/Dark/src/scss/layouts/_link-style.scss1700509351072661528 0
+52/home/adduser/Dark/src/scss/layouts/_link-style.scss1700510817540936281 0
 56/home/adduser/Dark/node_modules/colord/plugins/cmyk.d.ts1700474788690543123 0
 79/home/adduser/Dark/node_modules/read-pkg-up/node_modules/type-fest/package.json1700474788440543114 0
 81/home/adduser/Dark/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.h1698606376727146383 0
