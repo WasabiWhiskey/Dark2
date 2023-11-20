@@ -2,11 +2,12 @@
 
 <head>
     <!-- A L'ENCAPÇALAMENT DEFINIM L'ICONA DE LA PESTANYA, EL NOM, LA CONFIGURACIÓ DE VISUALITZACIÓ I HI VINCULEM ELS ARXIUS CSS I JS -->
-    <link rel="icon" href="imgs/trin.ico" type="image/x-icon">
+    <link rel="icon" href="./scss/imgs/trin.ico" type="image/x-icon">
     <title>DARK-er</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./scss/main.scss">
     <script type="module" src="app.js"></script>
     <style>
         img {
@@ -29,35 +30,26 @@
 
 <body>
     <!-- COMENÇEM CREANT LA BARRA DE NAVEGACIÓ AMB ELS BOTONS I EL SEU CONTINGUT -->
-    <div class="nav">
-        <nav id="nav__menu">
-            <a href="index.html"><button type="button"><img id="icoli" src="imgs/trin.ico"
-                        alt="Triskel, logo de Dark"></button></a>
-            <a href="htmls/Categoria.html"><button type="button">Categoria</button></a>
-            <a href="htmls/Presentacio.html"><button type="button">Presentació</button></a>
-            <a href="htmls/Links.html"><button type="button">Links</button></a>
-        </nav>
-    </div>
+    <include src="./src/navbar.html"></include>
 
-
-    <!-- L'ID SPC VOL DIR SPACE (ESPAI). ÉS UN ELEMENT BUIT PER OMPLIR ELS ESPAIS ENTRE ELS ALTRES ELEMENTS -->
+    <!-- L'ID FSPC VOL DIR FIXED SPACE (ESPAI FIXE). ÉS UN ELEMENT BUIT PER OMPLIR ELS ESPAIS ENTRE ELS ALTRES ELEMENTS -->
     <div id="FSPC"></div>
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
     <!-- PER POSAR UN CONTINGUT AL COSTAT DE L'ALTRE FARÉ SERVIR UN GRID AL CSS -->
     <div id="LCAT">
         <!-- CREEM LA CEL·LA G1 -->
-        <div id="G1">
+        <div class="G1">
             <h3>EL BOSQUE</h3>
             <p>
                 Entra en las entrañas del bosque<br>
                 y descubre todos los secretos de Dark:
             </p>
-            <a href="htmls/Categoria.html"><button type="button" class="BYE">CATEGORÍA</button></a>
+            <a href="Categoria.html"><button type="button" class="BYE">CATEGORÍA</button></a>
         </div>
         <!-- I LA G2 -->
-        <div id="G2">
-            <img class="boy" src="./imgs/OIG.jpg"
+        <div class="G2">
+            <img class="boy" src="./scss/imgs/OIG.jpg"
                 alt="Imágen generada con IA (Stable Difussion) de un chubasquero amarillo tirado en el bosque">
         </div>
     </div>
@@ -75,11 +67,11 @@
             <p>
                 Aunque quizás necesites un poco de <br> contexto antes... todo está en el bunker:
             </p>
-            <a href="htmls/Presentacio.html"><button type="button" class="BYE">PRESENTACIÓ</button></a>
+            <a href="Presentacio.html"><button type="button" class="BYE">PRESENTACIÓ</button></a>
         </div>
         <!-- I UNA QUARTA -->
         <div id="G4">
-            <img class="boy" src="./imgs/OIG2.jpg"
+            <img class="boy" src="./scss/imgs/OIG2.jpg"
                 alt="Imágen generada con IA (Dalle2 en Bing) de la entrada de un bunker en el bosque">
         </div>
     </div>
@@ -90,27 +82,22 @@
 
     <div id="LLINK">
         <!-- UNA TERCERA CEL·LA -->
-        <div id="G1">
+        <div class="G1">
             <h3>ENLACES</h3>
             <p>
                 Y ojo que todo ésto no nos lo <br> inventamos nosotros... fuentes aquí:
             </p>
-            <a href="htmls/Links.html"><button type="button" class="BYE">LINKS</button></a>
+            <a href="Links.html"><button type="button" class="BYE">LINKS</button></a>
         </div>
         <!-- I UNA QUARTA -->
-        <div id="G2">
-            <img class="boy" src="./imgs/TRISKEL.jpg"
+        <div class="G2">
+            <img class="boy" src="./scss/imgs/TRISKEL.jpg"
                 alt="Imágen generada con IA (Dalle 2 en Bing) de un nudo celta de 3 puntas, un símbolo icónico de la serie">
         </div>
     </div>
 
-    <div id="FSPC"></div>
-
-    <footer>
-        <div id="foot">
-            <a href="#"><button type="button" id="FT"><img id="up" src="./imgs/up.png"
-                        alt="Botón con imagen de flecha arriba para volver al inicio de la página. Imagen png con derechos Creative Commons."></button></a>
-        </div>
-        <div id="GF2"></div>
-    </footer>
+    
+    <include src="./src/foot.html"></include>
 </body>
+
+</html>

@@ -1,0 +1,20 @@
+.navbar {
+    @include nav-st();
+}
+
+.nav-but {
+    @include nav-but-st();
+}
+
+.nav-but:hover {
+    @include nav-but-ho();
+}
+
+.nav-but:active {
+    @include nav-but-ac();
+}
+
+#icoli {
+    width: 50px;
+    height: 50px;
+}

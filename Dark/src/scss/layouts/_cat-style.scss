@@ -1,0 +1,85 @@
+html {
+    height: 0px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./imgs/bosque.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: #203833;
+    margin: 0px;
+}
+
+.BYE {
+    @include body-but();
+    padding-bottom: 5px;
+}
+
+.BYE:hover {
+    @include body-but-ho();
+}
+
+.BYE:active {
+    @include body-but-ac();
+}
+
+.boy {
+    box-shadow: 1px 1px 5px black;
+    height: 29vw;
+    width: 29vw;
+}
+
+#content1 {
+    background-color: #203833;
+    padding: 10px 40px 10px 50px;
+    color: #A5ADAB;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.content {
+@include content-block();
+}
+
+#G1 {
+    @include grid-impar($grid-column: 1, $Lpadding: auto)
+}
+
+#G2 {
+    @include grid-par($grid-column: 2)
+}
+
+#G3 {
+    @include grid-impar($grid-column: 2, $Rpadding: auto)
+}
+
+#G4 {
+    @include grid-par($grid-column: 1)
+}
+
+#G5 {
+    @include grid-impar($grid-column: 1, $Lpadding: auto)
+}
+
+#G6 {
+    @include grid-par($grid-column: 2)
+}
+
+#G7 {
+    @include grid-impar($grid-column: 2, $Rpadding: auto)
+}
+
+#G8 {
+    @include grid-par($grid-column: 1)
+}
+
+#G9 {
+    @include grid-impar($grid-column: 1, $Lpadding: auto)
+}
+
+#G10 {
+    @include grid-par($grid-column: 2)
+}

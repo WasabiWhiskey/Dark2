@@ -1,0 +1,61 @@
+html {
+    height: 0px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url("./imgs/bosque.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: #203833;
+    margin: 0px;
+}
+
+.content {
+    @include content-block()
+}
+
+#content1 {
+    background-color: #203833;
+    padding: 10px 40px 10px 50px;
+    color: #A5ADAB;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+#G1 {
+    @include grid-impar($grid-column: 1, $Lpadding: 0)
+}
+
+#G2 {
+    @include grid-par($grid-column: 2)
+}
+
+#G3 {
+    @include grid-impar($grid-column: 2, $Rpadding: 0)
+}
+
+#G4 {
+    @include grid-par($grid-column: 1)
+}
+
+#G5 {
+    @include grid-impar($grid-column: 1, $Lpadding: 0)
+}
+
+#G6 {
+    @include grid-par($grid-column: 2)
+}
+
+
+#G7 {
+    @include grid-impar($grid-column: 2, $Rpadding: 0)
+}
+
+#G8 {
+    @include grid-par($grid-column: 1)
+}

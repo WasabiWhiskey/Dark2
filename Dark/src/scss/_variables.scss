@@ -1,0 +1,125 @@
+@mixin nav-st() {
+    background: #40685f;
+    display: flex;
+
+    flex-direction: row;
+    position: static;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 60px;
+    width: 100%;
+}
+
+// 
+// 
+
+@mixin nav-but-st() {
+    float: left;
+    height: 60px;
+    display: block;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+@mixin nav-but-ho() {
+    background: #203833;
+    border: 1px solid #4c746c;
+    border-radius: 10% / 50%;
+    box-shadow: 1px 2px 5px #000;
+}
+
+@mixin nav-but-ac() {
+    background: #203833;
+    border: 1px solid #4c746c;
+    border-radius: 10% / 50%;
+    box-shadow: 1px 2px 5px inset #000;
+}
+
+// 
+// 
+
+@mixin grid-elem() {
+    display: grid;
+    grid-template-columns: 1, 1;
+    height: 28vw;
+    background-color: #203833;
+    color: #A5ADAB;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@mixin grid-txt($grid-column: 1, $grid-row: 1, $Lpadding: 5vw, $Rpadding: 0) {
+    text-shadow: 1px 1px 1px #000;
+    grid-column: $grid-column;
+    grid-row: $grid-row;
+    padding-left: $Lpadding;
+    padding-right: $Rpadding;
+}
+
+@mixin grid-pic($grid-column: 1, $grid-row: 1, $text-align: right) {
+    grid-column: $grid-column;
+    grid-row: $grid-row;
+    border: 1px #000;
+}
+
+// 
+// 
+
+@mixin body-but() {
+    margin-top: 0;
+    background: none;
+    border-radius: 10% / 50%;
+    border-color: #162724;
+    padding: 1vw 2vw 1vw 2vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #A5ADAB;
+}
+
+@mixin body-but-ho() {
+    animation: "luz" 250ms linear;
+    animation-duration: 1000ms;
+    background-color: #4c746c;
+    color: #ecf1f0;
+    box-shadow: 1px 2px 5px #000;
+}
+
+@mixin body-but-ac() {
+    background: #203833;
+    box-shadow: inset 1px 2px 5px #000;
+}
+
+
+// 
+// 
+// CATEGORIA
+// 
+// 
+
+@mixin content-block() {
+    display: grid;
+    grid-template-columns: 1, 1;
+    background-color: #203833;
+    padding-left: 40px;
+    padding-right: 50px;
+    color: #A5ADAB;
+    text-shadow: 1px 1px 1px #000;
+}
+
+@mixin grid-par($grid-column: 1) {
+    grid-column: $grid-column;
+    grid-row: 1;
+    text-align: center;
+}
+
+@mixin grid-impar($grid-column: 1, $Lpadding: 15px, $Rpadding: 15px) {
+    grid-column: $grid-column;
+    grid-row: 1;
+    padding-right: $Rpadding;
+    padding-left: $Lpadding;
+}

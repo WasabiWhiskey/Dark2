@@ -1,0 +1,60 @@
+.FSPC {
+    height: 116px;
+}
+
+
+/* AQUÍ CONFIGURO EL FOOTER */
+footer {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1, 1, 1;
+}
+
+.foot {
+    height: inherit;
+    width: 33%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+/* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ          1593.6*/
+.FT {
+    translate: 200% 0%;
+    width: 17vw;
+    height: 18vw;
+    background-color: #40685f;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 1vw;
+    box-shadow: 5px 5px 1px #000000, 10px 10px 10px;
+}
+
+.FT:hover {
+    animation: "luz" 250ms linear;
+    animation-duration: 1000ms;
+    background-color: #4c746c;
+    color: #ecf1f0;
+    box-shadow: 1px 2px 5px #000000;
+}
+
+.FT:active {
+    background: #203833;
+    box-shadow: inset 1px 2px 5px #000000;
+}
+
+#GF2 {
+    float: right;
+    display: block;
+    height: inherit;
+    width: 77%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#up {
+    width: 100%;
+    height: 100%;
+}
