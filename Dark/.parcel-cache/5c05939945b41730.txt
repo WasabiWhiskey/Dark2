@@ -1,6 +1,6 @@
-9617
+9619
 30/home/adduser/Dark/.posthtmlrc1700501947139874242 0
-40/home/adduser/Dark/dist/Presentacio.html1700510183981849249 0
+40/home/adduser/Dark/dist/Presentacio.html1700510723710962167 0
 41/home/adduser/Dark/dist/index.9fdc7770.js1700510187052289709 0
 43/home/adduser/Dark/dist/ÁRBOL.682c8cb5.jpg1700510183681806207 0
 46/home/adduser/Dark/dist/Links.5438487b.css.map1700510183981849249 0
@@ -11,18 +11,20 @@
 42/home/adduser/Dark/dist/Links.5438487b.css1700510183981849249 0
 45/home/adduser/Dark/dist/DetallPDX.096e90b9.js1700510183681806207 0
 38/home/adduser/Dark/dist/DetallPDX.html1700510183681806207 0
+48/home/adduser/Dark/dist/Presentacio.5e4aa540.css1700510723710962167 0
 39/home/adduser/Dark/dist/up.e61facca.png1700510187052289709 0
 50/home/adduser/Dark/dist/DetallPDX.ca617979.css.map1700510187062291144 0
 46/home/adduser/Dark/dist/DetallPDX.ca617979.css1700510187052289709 0
 46/home/adduser/Dark/dist/index.d84488b0.css.map1700510187062291144 0
 46/home/adduser/Dark/dist/Categoria.a939a08b.css1700510187052289709 0
 45/home/adduser/Dark/dist/Categoria.76026c04.js1700510183681806207 0
+52/home/adduser/Dark/dist/Presentacio.5e4aa540.css.map1700510723710962167 0
 41/home/adduser/Dark/dist/trin.1a39dd72.ico1700510187062291144 0
 34/home/adduser/Dark/dist/Links.html1700510183981849249 0
 41/home/adduser/Dark/dist/mapa.3013f063.jpg1700510183981849249 0
 46/home/adduser/Dark/dist/Categoria.529cfa66.css1700510183681806207 0
 45/home/adduser/Dark/dist/index.9fdc7770.js.map1700510187092295448 0
-23/home/adduser/Dark/dist1700510187092295448 1
+23/home/adduser/Dark/dist1700510723710962167 1
 31/home/adduser/Dark/package.json1700499766089970932 0
 37/home/adduser/Dark/src/DetallPDX.html1700509120955288032 0
 34/home/adduser/Dark/src/.posthtmlrc1700502735139884785 0
@@ -2325,7 +2327,7 @@
 58/home/adduser/Dark/node_modules/yargs/build/lib/command.js1698697470612150382 0
 61/home/adduser/Dark/node_modules/yargs/build/lib/validation.js1698697470692150386 0
 57/home/adduser/Dark/node_modules/yargs/build/lib/yerror.js1698697470722150392 0
-51/home/adduser/Dark/src/scss/layouts/_pre-style.scss1700509915363410378 0
+51/home/adduser/Dark/src/scss/layouts/_pre-style.scss1700510714059936599 0
 65/home/adduser/Dark/node_modules/json-schema-traverse/package.json1700474788550543116 0
 77/home/adduser/Dark/node_modules/yargs/build/lib/typings/yargs-parser-types.js1698697470722150392 0
 70/home/adduser/Dark/node_modules/@nodelib/fs.walk/out/providers/sync.js1698697470592150380 0
@@ -8645,7 +8647,7 @@
 124/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/common/nthWithOfClause.js1698606376547146394 0
 56/home/adduser/Dark/node_modules/util-deprecate/README.md1700474788430543114 0
 109/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/matches.js1698606376507146396 0
-48/home/adduser/Dark/dist/Presentacio.ef8add66.css1700510183981849249 0
+48/home/adduser/Dark/dist/Presentacio.ef8add66.css1700510714159947225 0
 105/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/not.js1698606376527146394 0
 76/home/adduser/Dark/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo1698606376457146399 1
 75/home/adduser/Dark/node_modules/yaml/browser/dist/schema/yaml-1.1/binary.js1698697470462150368 0
@@ -9483,7 +9485,7 @@
 69/home/adduser/Dark/node_modules/postcss-safe-parser/lib/safe-parse.js1700474788470543112 0
 81/home/adduser/Dark/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/crypto.c1698606376087146421 0
 81/home/adduser/Dark/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.c1698606376427146401 0
-52/home/adduser/Dark/dist/Presentacio.ef8add66.css.map1700510183981849249 0
+52/home/adduser/Dark/dist/Presentacio.ef8add66.css.map1700510714159947225 0
 52/home/adduser/Dark/src/scss/layouts/_link-style.scss1700509351072661528 0
 56/home/adduser/Dark/node_modules/colord/plugins/cmyk.d.ts1700474788690543123 0
 79/home/adduser/Dark/node_modules/read-pkg-up/node_modules/type-fest/package.json1700474788440543114 0

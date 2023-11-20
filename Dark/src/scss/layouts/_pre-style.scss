@@ -26,6 +26,11 @@ body {
     text-shadow: 1px 1px 1px #000000;
 }
 
+.boy {
+    box-shadow: 1px 1px 5px black;
+    height: 29vw;
+    width: 29vw;
+}
 
 #G1 {
     @include grid-impar($grid-column: 1, $Lpadding: 0)

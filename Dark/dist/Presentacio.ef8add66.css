@@ -73,6 +73,12 @@ body {
   padding: 10px 40px 10px 50px;
 }
 
+.boy {
+  width: 29vw;
+  height: 29vw;
+  box-shadow: 1px 1px 5px #000;
+}
+
 #G1 {
   grid-area: 1 / 1;
   padding-left: 0;
