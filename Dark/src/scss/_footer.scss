@@ -1,4 +1,4 @@
-.FSPC {
+.fspc {
     height: 116px;
 }
 
@@ -20,8 +20,8 @@ footer {
 }
 
 
-/* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ          1593.6*/
-.FT {
+/* I AQUÍ RECICLO LA CONFIGURACIÓ DELS BOTONS #BYE PERÒ DE FORMA INDEPENDENT PER CANVIAR-LOS LA POSICIÓ */
+.ft {
     translate: 200% 0%;
     width: 17vw;
     height: 18vw;
@@ -29,23 +29,23 @@ footer {
     border: none;
     border-radius: 50%;
     margin-bottom: 1vw;
-    box-shadow: 5px 5px 1px #000000, 10px 10px 10px;
+    box-shadow: 5px 5px 1px #000, 10px 10px 10px;
 }
 
-.FT:hover {
+.ft:hover {
     animation: "luz" 250ms linear;
     animation-duration: 1000ms;
     background-color: #4c746c;
     color: #ecf1f0;
-    box-shadow: 1px 2px 5px #000000;
+    box-shadow: 1px 2px 5px #000;
 }
 
-.FT:active {
+.ft:active {
     background: #203833;
-    box-shadow: inset 1px 2px 5px #000000;
+    box-shadow: inset 1px 2px 5px #000;
 }
 
-#GF2 {
+#gf2 {
     float: right;
     display: block;
     height: inherit;

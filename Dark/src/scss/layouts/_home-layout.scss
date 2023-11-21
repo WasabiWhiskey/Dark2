@@ -11,8 +11,8 @@ body {
     background-size: cover;
     background-position-x: center;
     background-position-y: top;
-    background-color: #203833; 
-    margin: 0; 
+    background-color: #203833;
+    margin: 0;
 }
 
 #FSPC {
@@ -21,19 +21,19 @@ body {
 
 
 #LCAT {
-@include grid-elem();
+    @include grid-elem();
 }
 
 .BYE {
-@include body-but();
+    @include body-but();
 }
 
 .BYE:hover {
-@include body-but-ho();
+    @include body-but-ho();
 }
 
 .BYE:active {
-@include body-but-ac();
+    @include body-but-ac();
 }
 
 .boy {
@@ -43,18 +43,18 @@ body {
 }
 
 .G1 {
- @include grid-txt($grid-column: 1, $grid-row: 1, $Lpadding: 1.5vw, $Rpadding: 5vw);
+    @include grid-txt($grid-column: 1, $grid-row: 1, $Lpadding: 1.5vw, $Rpadding: 5vw);
     text-align: right;
     height: 25vw;
 }
 
 .G2 {
-@include grid-pic($grid-column: 2, $grid-row: 1);
-text-align: left;
+    @include grid-pic($grid-column: 2, $grid-row: 1);
+    text-align: left;
 }
 
 #LPRE {
-@include grid-elem();
+    @include grid-elem();
 }
 
 #G3 {
@@ -62,10 +62,10 @@ text-align: left;
 }
 
 #G4 {
-    @include grid-pic($grid-column: 1, $grid-row: 1,);
+    @include grid-pic($grid-column: 1, $grid-row: 1, );
     text-align: right;
 }
 
 #LLINK {
-@include grid-elem();
+    @include grid-elem();
 }
