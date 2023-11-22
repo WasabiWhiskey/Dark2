@@ -72,8 +72,6 @@
 }
 
 @mixin body-but-ho() {
-    animation: "luz" 250ms linear;
-    animation-duration: 1000ms;
     background-color: #4c746c;
     color: #ecf1f0;
     box-shadow: 1px 2px 5px #000;
@@ -110,4 +108,42 @@
     grid-row: 1;
     padding-right: $Rpadding;
     padding-left: $Lpadding;
+}
+
+
+// DETALL
+
+@mixin detall-content($padding: 0) {
+    background-color: #203833;
+    padding: $padding;
+    margin: 10px;
+    border-radius: 1vw;
+    border: 2px solid #3c6b62;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+
+@mixin change-pg($width: 30%, $bradius: 0) {
+    // padding: 5% 5% 5% 25%;
+    text-align: center;
+    height: 100%;
+    width: $width;
+
+    button {
+        font-size: 2vw;
+        text-align: center;
+        // padding: 5% 10% 5% 10%;
+        background: none;
+        color: white;
+        text-shadow: 1px 1px 1px #000000;
+        height: 100%;
+        width: 333%;
+        border: 4px double #24453f;
+        border-radius: $bradius;
+        background-color: #4c746c;
+    }
+
+
 }
